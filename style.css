@@ -54,7 +54,7 @@ header .head-into .into-contant{
     
 }
 header .head-into .into-contant>h1{
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: bold;
     padding: 10px 0px;
 }
@@ -66,6 +66,10 @@ header .head-into .into-contant button{
     border: 1px solid #e02c6d;
     margin-top: 20px;
     cursor: pointer;
+}
+
+header .head-into .into-contant button i{
+    padding-left: 5px;
 }
 
 
@@ -237,4 +241,84 @@ h4{
 
 h5{
     font-size: 24px;
+}
+
+
+
+
+@media screen and (max-width: 577px) {
+    header {
+        padding: 20px;
+        text-align: center;
+      }
+      header .nev {
+        display: flex;
+        flex-direction: column;
+      }
+      header .nev .logo {
+        width: 100%;
+      }
+      header .menu {
+        width: 100%;
+        margin: 20px 0px;
+      }
+      header .head-into {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+      }
+      header .head-into .into-contant {
+        width: 100%;
+      }
+      header .head-into .into-logo {
+        width: 100%;
+      }
+      header .head-into .into-contant button {
+        padding: 15px 30px;
+      }
+      header .e-logo {
+        flex-wrap: wrap;
+        column-gap: 29px;
+    row-gap: 30px;
+    justify-content: space-evenly;
+  }
+
+
+  main .one {
+    padding: 0px 5px;
+}
+  main .one .card-itams {
+    display: flex;
+    flex-direction: column;
+      }
+
+      main .one .card {
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 0px;
+      }
+
+      main .one .see-more {
+        position: absolute;
+        right: 6px;
+      }
+
+
+      main .two {
+        padding: 50px 20px;
+        flex-direction: column;
+        flex-direction: column-reverse;
+      }
+
+      main .two .two-img {
+        width: 100%;
+      }
+
+      main .two .two-text {
+        width: 100%;
+        padding: 62px 0px;
+      }
+
+
 }
