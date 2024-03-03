@@ -79,9 +79,13 @@ header .e-logo{
     margin: 80px 0px;
 }
 
+/*      */
+
+
 main .one{
     padding: 0px 100px;
     text-align: center;
+    position: relative;
 
 }
 main .one .card-itams{
@@ -112,10 +116,66 @@ main .one .card img{
     width: 100%;
 }
 
-
-
+main .one .see-more{
+    position: absolute;
+  bottom: -50px;
+  right: 100px;
+    color: #e02c6d;
+}
+main .one .see-more >h6{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
 
 /*     */
+
+
+main .two{
+    padding: 50px 100px;
+    display: flex;
+
+}
+
+main .two .two-img{
+    width: 45%;
+}
+
+main .two .two-img img{
+    width: 100%;
+    border-radius: 7px;
+    padding: 45px;
+
+}
+
+main .two .two-text{
+    width: 55%;
+    padding: 62px 0px;
+}
+
+main .two h2{
+    font-size: 2.25rem;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+main .two p{
+    font-size: 1rem;
+}
+
+
+main .two .two-text button{
+    background-color: #e02c6d;
+    color: #fff;
+    padding: 4px 12px;
+    border: 1px solid #e02c6d;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
 /*     */
 /*     */
 /*     */
